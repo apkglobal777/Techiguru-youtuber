@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><title>TechiGuru | Master Modern Technology</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@400;500;600&amp;family=Plus+Jakarta+Sans:wght@600;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"tertiary":"#4cd7f6","surface-container-high":"#25293a","on-primary-container":"#0d0096","on-tertiary-fixed-variant":"#004e5c","secondary-fixed":"#e9ddff","on-surface":"#dee1f9","surface":"#0e1323","on-secondary-fixed":"#23005c","inverse-primary":"#494bd6","on-primary-fixed-variant":"#2f2ebe","surface-tint":"#c0c1ff","on-secondary":"#3c0091","on-tertiary-container":"#002f38","surface-container-lowest":"#080d1d","on-secondary-fixed-variant":"#5516be","surface-variant":"#2f3446","surface-container-highest":"#2f3446","inverse-on-surface":"#2b3041","on-primary":"#1000a9","secondary-container":"#571bc1","tertiary-container":"#009eb9","on-tertiary":"#003640","outline":"#908fa0","primary-fixed-dim":"#c0c1ff","secondary-fixed-dim":"#d0bcff","inverse-surface":"#dee1f9","on-background":"#dee1f9","on-surface-variant":"#c7c4d7","on-error-container":"#ffdad6","error-container":"#93000a","surface-container":"#1a1f30","outline-variant":"#464554","on-secondary-container":"#c4abff","secondary":"#d0bcff","tertiary-fixed":"#acedff","error":"#ffb4ab","surface-dim":"#0e1323","on-tertiary-fixed":"#001f26","surface-bright":"#34394a","primary-fixed":"#e1e0ff","surface-container-low":"#161b2b","primary-container":"#8083ff","tertiary-fixed-dim":"#4cd7f6","primary":"#c0c1ff","on-primary-fixed":"#07006c","background":"#0e1323","on-error":"#690005"},borderRadius:{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},spacing:{"space-md":"1rem","space-sm":"0.5rem","space-xl":"2.5rem","space-lg":"1.5rem","margin-mobile":"1rem","margin-tablet":"2rem","space-xs":"0.25rem","margin":"3rem","gutter":"1.5rem","gutter-mobile":"1rem"},fontFamily:{"headline-lg":["Plus Jakarta Sans"],"display-hero-mobile":["Plus Jakarta Sans"],"body-lg":["Inter"],"label-md":["JetBrains Mono"],"code-inline":["JetBrains Mono"],"body-sm":["Inter"],"headline-lg-mobile":["Plus Jakarta Sans"],"label-sm":["JetBrains Mono"],"code-block":["JetBrains Mono"],"body-md":["Inter"],"title-md":["Inter"],"display-hero":["Plus Jakarta Sans"],"headline-md":["Plus Jakarta Sans"],"headline-sm":["Plus Jakarta Sans"]},fontSize:{"headline-lg":["36px",{"lineHeight":"44px","letterSpacing":"-0.02em","fontWeight":"700"}],"display-hero-mobile":["36px",{"lineHeight":"44px","letterSpacing":"-0.02em","fontWeight":"800"}],"body-lg":["16px",{"lineHeight":"26px","fontWeight":"400"}],"label-md":["12px",{"lineHeight":"16px","letterSpacing":"0.05em","fontWeight":"600"}],"code-inline":["13px",{"lineHeight":"20px","fontWeight":"500"}],"body-sm":["12px",{"lineHeight":"18px","fontWeight":"400"}],"headline-lg-mobile":["28px",{"lineHeight":"36px","letterSpacing":"-0.01em","fontWeight":"700"}],"label-sm":["10px",{"lineHeight":"14px","letterSpacing":"0.08em","fontWeight":"600"}],"code-block":["14px",{"lineHeight":"22px","fontWeight":"400"}],"body-md":["14px",{"lineHeight":"22px","fontWeight":"400"}],"title-md":["18px",{"lineHeight":"26px","fontWeight":"600"}],"display-hero":["56px",{"lineHeight":"64px","letterSpacing":"-0.03em","fontWeight":"800"}],"headline-md":["24px",{"lineHeight":"32px","letterSpacing":"-0.01em","fontWeight":"600"}],"headline-sm":["20px",{"lineHeight":"28px","fontWeight":"600"}]}}}}</script></head><body class="bg-background font-body-md text-body-md text-on-surface antialiased selection:bg-primary-container selection:text-on-primary-container min-h-screen"><header class="fixed top-0 left-0 right-0 z-50 bg-[#0B1020]/85 backdrop-blur-xl border-b border-slate-800/80"><div class="h-20 max-w-[1440px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-lg"><a class="flex items-center gap-3 group focus:outline-none" href="#hero"><img alt="TechiGuru Logo" class="h-8 w-auto object-contain transition-transform duration-300 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuClrSv1p60-0Er3qSMsx2PdILD6s3Mu3hWN9sDuIgn6TkNTX_9Jrxa81mAF8Z2RhCKJrTfHyy1Xp-ejr8u9ZGzsmpsfv2oBYfPjkQptLjz6fBAEHyw2_3Ocf2zBEBT2UlT_O4R0j0DXp_hzJ_s_QoL4onYYAr8c0CnqjcRbMEHzEMraL5j_4gGt_LJhsTI6W2CSG1VglkPwcrG3ccI08dGXSILng5OfMp559Kgzoh6U"/><div class="flex items-center"><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight group-hover:text-primary transition-colors">Techi<span class="text-primary">Guru</span></span><span class="w-2 h-2 ml-1 rounded-full bg-tertiary shadow-[0_0_8px_#4cd7f6] animate-pulse"></span></div></a><nav class="hidden xl:flex items-center gap-space-md ml-space-sm" data-active-classes="text-primary font-title-md"><a aria-current="page" class="px-space-xs py-space-xs transition-colors text-primary font-title-md" data-path="home" href="#hero">Home</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface px-space-xs py-space-xs transition-colors" data-path="videos" href="#videos">All Videos</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface px-space-xs py-space-xs transition-colors" data-path="categories" href="#categories">Categories</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface px-space-xs py-space-xs transition-colors" data-path="channel" href="#channel">YouTube Channel</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface px-space-xs py-space-xs transition-colors" data-path="about" href="#about">Mission &amp; About</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface px-space-xs py-space-xs transition-colors" data-path="contact" href="#contact">Contact</a></nav></div><div class="flex items-center gap-3"><a class="hidden sm:inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-surface-container-high/60 hover:bg-surface-container-high text-on-surface border border-outline-variant/30 hover:border-tertiary/50 font-label-md text-label-md transition-all duration-200" href="https://techiguru.in" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[16px] text-tertiary">language</span><span>techiguru.in</span></a><a class="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-[#FF0000] hover:bg-[#e60000] text-white font-headline-sm text-[13px] tracking-wide shadow-[0_0_20px_rgba(255,0,0,0.4)] hover:shadow-[0_0_25px_rgba(255,0,0,0.6)] transition-all duration-300 transform active:scale-95" href="https://youtube.com/c/apkglobal" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[18px]">play_arrow</span><span>Subscribe</span></a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-background min-h-[calc(100vh-80px)]"><div class="flex flex-col w-full">
+<!-- AMBIENT GLOW SYSTEM -->
+<div class="relative w-full overflow-hidden">
+<div class="pointer-events-none absolute -top-40 left-1/4 w-[650px] h-[650px] bg-primary/10 rounded-full blur-[140px]"></div>
+<div class="pointer-events-none absolute top-96 right-10 w-[500px] h-[500px] bg-tertiary/10 rounded-full blur-[120px]"></div>
+<!-- 1. HERO SECTION -->
+<section class="relative max-w-[1440px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin pt-space-xl pb-24" id="hero">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+<!-- Hero Text Content -->
+<div class="lg:col-span-7 flex flex-col items-start gap-space-lg">
+<!-- Live Status / Eyebrow Badge -->
+<div class="inline-flex items-center gap-space-xs px-3.5 py-1.5 rounded-full bg-surface-container-high/80 backdrop-blur-md shadow-sm">
+<span class="w-2 h-2 rounded-full bg-tertiary animate-pulse shadow-[0_0_10px_#4cd7f6]"></span>
+<span class="font-label-md text-label-md text-tertiary tracking-wide uppercase">🚀 Master In-Demand Industry Skills | 100% Practical &amp; Project-Based</span>
+</div>
+<!-- Main Hero H1 -->
+<h1 class="font-display-hero text-display-hero text-on-surface tracking-tight">
+            Master Modern Technology.
+            <span class="block bg-gradient-to-r from-primary via-secondary to-tertiary bg-clip-text text-transparent">
+              Build Real-World Skills.
+            </span>
+</h1>
+<!-- Supporting Text -->
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl">
+            Learn programming, web development, mobile development, cloud, DevOps, Data Science, and AI through practical, project-based tutorials designed for production engineers.
+          </p>
+<!-- CTAs & Live Stats -->
+<div class="flex flex-wrap items-center gap-space-md pt-space-xs">
+<!-- Primary YouTube CTA -->
+<a class="inline-flex items-center gap-2.5 px-6 py-3.5 rounded-xl bg-[#FF0000] hover:bg-[#e60000] text-white font-title-md text-title-md tracking-tight shadow-[0_0_24px_rgba(255,0,0,0.45)] hover:shadow-[0_0_32px_rgba(255,0,0,0.65)] transition-all duration-300 transform hover:-translate-y-0.5 active:translate-y-0" href="https://youtube.com/c/apkglobal" rel="noopener noreferrer" target="_blank">
+<svg class="w-5 h-5 fill-current" viewbox="0 0 24 24">
+<path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path>
+</svg>
+<span>Watch on YouTube</span>
+</a>
+<!-- Secondary Explore CTA -->
+<a class="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-surface-container-high/70 hover:bg-surface-container-highest text-on-surface font-title-md text-title-md transition-all duration-200" href="#videos">
+<span class="material-symbols-outlined text-[20px] text-tertiary">smart_display</span>
+<span>Explore Videos</span>
+</a>
+<!-- Weekly Drop Status -->
+<div class="inline-flex items-center gap-2 px-4 py-3 rounded-xl bg-surface-container-low text-on-surface-variant font-label-md text-label-md">
+<span class="w-2.5 h-2.5 rounded-full bg-[#FF0000] animate-ping"></span>
+<span>New Tutorial Drops Weekly • 100K+ Learners</span>
+</div>
+</div>
+<!-- Quick Metrics Bar -->
+<div class="grid grid-cols-3 gap-gutter pt-space-md w-full max-w-xl">
+<div class="flex flex-col p-3 rounded-lg bg-surface-container-lowest/70 backdrop-blur-sm">
+<span class="font-headline-sm text-headline-sm text-tertiary font-bold">500+</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Free Code Lessons</span>
+</div>
+<div class="flex flex-col p-3 rounded-lg bg-surface-container-lowest/70 backdrop-blur-sm">
+<span class="font-headline-sm text-headline-sm text-primary font-bold">14+</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Modern Stacks</span>
+</div>
+<div class="flex flex-col p-3 rounded-lg bg-surface-container-lowest/70 backdrop-blur-sm">
+<span class="font-headline-sm text-headline-sm text-secondary font-bold">100%</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Production Hands-on</span>
+</div>
+</div>
+</div>
+<!-- Hero Visual Media Column -->
+<div class="lg:col-span-5 relative mt-8 lg:mt-0">
+<!-- Glassmorphic Media Frame with Glow -->
+<div class="relative rounded-2xl bg-surface-container-low/90 backdrop-blur-xl p-3 shadow-2xl overflow-hidden group">
+<div class="relative w-full aspect-video md:aspect-[4/3] rounded-xl overflow-hidden bg-surface-container-lowest">
+<img alt="TechiGuru Engineering Studio Environment" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAN6BRpYIxKznSuijT2xbKHZyo2vP2bhkIsD0QAHz-r9pW5aHaJD269ClYxuks_0B-wai4RHELvc3ONcoLI9XbJeKNM1Eduahog_dDf4ArzCJO7DoUqW-G4NdSpLgPujjRcJCQkJ0MvJFOpN8kxRos8IJH5UhjmvlAKf1TArSpLLaFV7HkoL8vyPuWpjQR5fAqNyPy8F_Al3ZLRxIdpobmrccdf5aSQ3qQharg2GkAK"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest via-transparent to-transparent opacity-80"></div>
+<!-- Floating Overlay Play Trigger -->
+<a class="absolute inset-0 flex items-center justify-center group/play focus:outline-none" href="https://youtube.com/c/apkglobal" rel="noopener noreferrer" target="_blank">
+<div class="w-16 h-16 rounded-full bg-[#FF0000]/90 backdrop-blur-md flex items-center justify-center text-white shadow-[0_0_30px_rgba(255,0,0,0.6)] group-hover/play:scale-110 transition-transform duration-300">
+<span class="material-symbols-outlined text-[36px] ml-1">play_arrow</span>
+</div>
+</a>
+</div>
+<!-- Floating Interactive Metatag Badges -->
+<div class="absolute top-6 left-6 flex items-center gap-2 px-3 py-1.5 rounded-lg bg-surface-container-lowest/90 backdrop-blur-md shadow-md">
+<span class="material-symbols-outlined text-tertiary text-[16px]">verified</span>
+<span class="font-label-sm text-label-sm text-on-surface font-semibold tracking-wider uppercase">99.4% Practical Code</span>
+</div>
+<div class="absolute bottom-8 left-6 flex items-center gap-2 px-3.5 py-1.5 rounded-lg bg-surface-container-lowest/90 backdrop-blur-md shadow-md">
+<span class="material-symbols-outlined text-secondary text-[16px]">neurology</span>
+<span class="font-label-sm text-label-sm text-on-surface font-semibold tracking-wider uppercase">Cloud &amp; AI Ready</span>
+</div>
+<div class="absolute bottom-8 right-6 flex items-center gap-2 px-3.5 py-1.5 rounded-lg bg-surface-container-lowest/90 backdrop-blur-md shadow-md">
+<span class="material-symbols-outlined text-primary text-[16px]">account_tree</span>
+<span class="font-label-sm text-label-sm text-on-surface font-semibold tracking-wider uppercase">Full Stack Roadmaps</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 2. ALL VIDEOS SECTION -->
+<section class="relative max-w-[1440px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin py-20" id="videos">
+<!-- Section Header -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md mb-space-lg">
+<div class="space-y-space-xs max-w-2xl">
+<div class="font-label-md text-label-md text-tertiary tracking-wider uppercase font-semibold">Curated Tech Tutorials</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">Latest &amp; Featured Video Tutorials</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">Deep-dive into hands-on code walkthroughs and industry production architectures. Click any video to watch directly on YouTube.</p>
+</div>
+<a class="inline-flex items-center gap-2 px-4 py-2.5 rounded-lg bg-surface-container-high hover:bg-surface-container-highest text-on-surface font-body-sm text-body-sm font-semibold transition-colors" href="https://youtube.com/c/apkglobal" rel="noopener noreferrer" target="_blank">
+<span>Explore All 500+ on YouTube</span>
+<span class="material-symbols-outlined text-[18px] text-tertiary">open_in_new</span>
+</a>
+</div>
+<!-- Quick Filter Chips (Interactive Tabs) -->
+<div class="flex items-center gap-2 overflow-x-auto pb-4 mb-space-lg scrollbar-none" id="video-filter-container">
+<button class="video-filter-btn px-4 py-2 rounded-full font-label-md text-label-md transition-all duration-200 bg-primary text-on-primary" data-cat="all" onclick="filterVideos('all')">
+          All Videos
+        </button>
+<button class="video-filter-btn px-4 py-2 rounded-full font-label-md text-label-md transition-all duration-200 bg-surface-container-high text-on-surface-variant hover:text-on-surface" data-cat="web" onclick="filterVideos('web')">
+          Web Dev &amp; MERN
+        </button>
+<button class="video-filter-btn px-4 py-2 rounded-full font-label-md text-label-md transition-all duration-200 bg-surface-container-high text-on-surface-variant hover:text-on-surface" data-cat="python" onclick="filterVideos('python')">
+          Python &amp; AI
+        </button>
+<button class="video-filter-btn px-4 py-2 rounded-full font-label-md text-label-md transition-all duration-200 bg-surface-container-high text-on-surface-variant hover:text-on-surface" data-cat="cloud" onclick="filterVideos('cloud')">
+          Cloud &amp; DevOps
+        </button>
+<button class="video-filter-btn px-4 py-2 rounded-full font-label-md text-label-md transition-all duration-200 bg-surface-container-high text-on-surface-variant hover:text-on-surface" data-cat="core" onclick="filterVideos('core')">
+          System Architecture &amp; DSA
+        </button>
+</div>
+<!-- Video Grid (6 Featured Cards) -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter" id="videos-grid">
+<!-- Card 1: MERN Stack -->
+<div class="video-card group flex flex-col justify-between rounded-xl bg-surface-container-low hover:bg-surface-container transition-all duration-300 shadow-md hover:-translate-y-1 overflow-hidden" data-category="web">
+<div>
+<div class="relative w-full aspect-video bg-surface-container-lowest overflow-hidden">
+<div class="bg-cover bg-center w-full h-full transition-transform duration-500 group-hover:scale-105" data-alt="Futuristic dual monitor coding workstation glowing with modern dark theme IDE, full-stack React and Nodejs code snippets in cyan and indigo ambient light." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCgAEEKuKJTARbnpi0yS05kbO4_cny-SpR8aCF_hkY_RRStSMZlbF5mLLZw_exmT7RCL6E3ss2uOrSjWbIMYHDVveXfzD15MUWjf5zbHUw1JluG1pTExgZcr0fuol5Kocmn0Z_JoEKDXnW45ViPi67J8ThNp7CHGBoqkOByTn3KdYGE52ug49U_XXLl1ntCFznes0X-l2402ptet0ufag2qpIPOIpnyF6wvf4qVxijV')"></div>
+<div class="absolute inset-0 bg-surface-container-lowest/40 group-hover:bg-surface-container-lowest/10 transition-colors flex items-center justify-center">
+<div class="w-12 h-12 rounded-full bg-[#FF0000] text-white flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[28px] ml-0.5">play_arrow</span>
+</div>
+</div>
+<div class="absolute bottom-2.5 right-2.5 px-2 py-0.5 rounded bg-surface-container-lowest/90 font-label-sm text-label-sm text-on-surface font-semibold">
+                3h 45m
+              </div>
+<div class="absolute top-2.5 left-2.5 px-2.5 py-0.5 rounded-full bg-secondary-container/90 text-on-secondary-container font-label-sm text-label-sm font-semibold">
+                Web Development
+              </div>
+</div>
+<div class="p-space-md space-y-space-xs">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors line-clamp-2">
+                Complete MERN Full-Stack Roadmap: Production E-Commerce with Redux &amp; Docker
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+                Architect a real-world enterprise shopping engine with JWT authentication, Stripe webhooks, Redis caching, and automated containerization.
+              </p>
+</div>
+</div>
+<div class="p-space-md pt-0">
+<a class="w-full inline-flex items-center justify-center gap-2 py-2.5 px-4 rounded-lg bg-surface-container-high hover:bg-[#FF0000] text-on-surface hover:text-white font-title-md text-[14px] transition-colors duration-200" href="https://youtube.com/c/apkglobal" rel="noopener noreferrer" target="_blank">
+<svg class="w-4 h-4 fill-current" viewbox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg>
+<span>Watch on YouTube</span>
+</a>
+</div>
+</div>
+<!-- Card 2: Python 2026 -->
+<div class="video-card group flex flex-col justify-between rounded-xl bg-surface-container-low hover:bg-surface-container transition-all duration-300 shadow-md hover:-translate-y-1 overflow-hidden" data-category="python">
+<div>
+<div class="relative w-full aspect-video bg-surface-container-lowest overflow-hidden">
+<div class="bg-cover bg-center w-full h-full transition-transform duration-500 group-hover:scale-105" data-alt="High-tech workspace with Python terminal script executing asynchronous worker tasks with clean typography in bright cyan and neon purple tones." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBLeArQKNQBPTT83y86t4_WFB1uH_ICIZ4XnqU-jcgLsr_qeBJ_VcUmCAvlqTdOE3J0ceBiShWyhvpKqi6e-LqkAJ9MUEPdaHReECyUCknwgznFvunKBrx-alF8CHuu5cRhjhQPDZ-0020Zfz4hE86UK-KzsEg0bL8YPS3Y-tUCR5Q-SZsauNVr2McWYUnwg-vAkeqV0ChKSgf0P9YjUw2ZeM5jiJDbDVfW024h_fMw')"></div>
+<div class="absolute inset-0 bg-surface-container-lowest/40 group-hover:bg-surface-container-lowest/10 transition-colors flex items-center justify-center">
+<div class="w-12 h-12 rounded-full bg-[#FF0000] text-white flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[28px] ml-0.5">play_arrow</span>
+</div>
+</div>
+<div class="absolute bottom-2.5 right-2.5 px-2 py-0.5 rounded bg-surface-container-lowest/90 font-label-sm text-label-sm text-on-surface font-semibold">
+                2h 30m
+              </div>
+<div class="absolute top-2.5 left-2.5 px-2.5 py-0.5 rounded-full bg-tertiary-container/90 text-on-tertiary font-label-sm text-label-sm font-semibold">
+                Programming
+              </div>
+</div>
+<div class="p-space-md space-y-space-xs">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors line-clamp-2">
+                Python 2026 Masterclass: Zero to Advanced Automation &amp; FastAPIs
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+                From core control structures and object-oriented architectures to building high-speed asynchronous APIs with Pydantic and async workers.
+              </p>
+</div>
+</div>
+<div class="p-space-md pt-0">
+<a class="w-full inline-flex items-center justify-center gap-2 py-2.5 px-4 rounded-lg bg-surface-container-high hover:bg-[#FF0000] text-on-surface hover:text-white font-title-md text-[14px] transition-colors duration-200" href="https://youtube.com/c/apkglobal" rel="noopener noreferrer" target="_blank">
+<svg class="w-4 h-4 fill-current" viewbox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg>
+<span>Watch on YouTube</span>
+</a>
+</div>
+</div>
+<!-- Card 3: Cloud & DevOps -->
+<div class="video-card group flex flex-col justify-between rounded-xl bg-surface-container-low hover:bg-surface-container transition-all duration-300 shadow-md hover:-translate-y-1 overflow-hidden" data-category="cloud">
+<div>
+<div class="relative w-full aspect-video bg-surface-container-lowest overflow-hidden">
+<div class="bg-cover bg-center w-full h-full transition-transform duration-500 group-hover:scale-105" data-alt="Amazon Web Services infrastructure console dashboard alongside Kubernetes pods status diagrams illuminated with cyan and blue neon indicators." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBU426gxySGtl3WJR9eoU9RIONt_yw9K431FlSshmlf6RTLtzLY1HkaAyJJPX_rHe3-xKHuMc_WwdPB5mX2gZthAXSVP0iJd1hK976gBcdLP_Xxy_HBaFCqZY7q1HbDPRmZC-kJp54R5TN3lsZ0I9Ii9qb_ufSoFfkf7VAT84V4bFVmRJrx9fo-vasUCVRZMTnRM7JNuI68suNnoEOzpDVf4RMXt6n863V8R2hj_qM1')"></div>
+<div class="absolute inset-0 bg-surface-container-lowest/40 group-hover:bg-surface-container-lowest/10 transition-colors flex items-center justify-center">
+<div class="w-12 h-12 rounded-full bg-[#FF0000] text-white flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[28px] ml-0.5">play_arrow</span>
+</div>
+</div>
+<div class="absolute bottom-2.5 right-2.5 px-2 py-0.5 rounded bg-surface-container-lowest/90 font-label-sm text-label-sm text-on-surface font-semibold">
+                1h 58m
+              </div>
+<div class="absolute top-2.5 left-2.5 px-2.5 py-0.5 rounded-full bg-primary-container/90 text-on-primary-container font-label-sm text-label-sm font-semibold">
+                Cloud &amp; DevOps
+              </div>
+</div>
+<div class="p-space-md space-y-space-xs">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors line-clamp-2">
+                AWS Cloud &amp; DevOps End-to-End Pipeline with CI/CD &amp; Kubernetes
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+                Automate testing and deployment to AWS EKS using GitHub Actions, Helm charts, Docker registries, and CloudWatch telemetry monitors.
+              </p>
+</div>
+</div>
+<div class="p-space-md pt-0">
+<a class="w-full inline-flex items-center justify-center gap-2 py-2.5 px-4 rounded-lg bg-surface-container-high hover:bg-[#FF0000] text-on-surface hover:text-white font-title-md text-[14px] transition-colors duration-200" href="https://youtube.com/c/apkglobal" rel="noopener noreferrer" target="_blank">
+<svg class="w-4 h-4 fill-current" viewbox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg>
+<span>Watch on YouTube</span>
+</a>
+</div>
+</div>
+<!-- Card 4: AI & LLMs -->
+<div class="video-card group flex flex-col justify-between rounded-xl bg-surface-container-low hover:bg-surface-container transition-all duration-300 shadow-md hover:-translate-y-1 overflow-hidden" data-category="python">
+<div>
+<div class="relative w-full aspect-video bg-surface-container-lowest overflow-hidden">
+<div class="bg-cover bg-center w-full h-full transition-transform duration-500 group-hover:scale-105" data-alt="Neural network nodes topology floating on screen with PyTorch weights computation tensors visualized in purple violet cybernetic glow." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDgMdahC6pyXF0bsytVEfGhmEiytalj-cQfSUCewsqnu6pCDT6dIvZkfluiX93muNmMKoHfwsSXbHVL9EPdsxYZEC9B2tnmYV0iwcNOBhqQXN_YzRies3ctabYhWE55qrLy8EcGN9bSucd84naj88J8fBGBYajeJJXipSzXLTz0J9E0v1BVwN7OeV8F85F6FYvklMm5ft33ummr0_3_1mCU6aqPOu8uT61t2Wf-INia')"></div>
+<div class="absolute inset-0 bg-surface-container-lowest/40 group-hover:bg-surface-container-lowest/10 transition-colors flex items-center justify-center">
+<div class="w-12 h-12 rounded-full bg-[#FF0000] text-white flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[28px] ml-0.5">play_arrow</span>
+</div>
+</div>
+<div class="absolute bottom-2.5 right-2.5 px-2 py-0.5 rounded bg-surface-container-lowest/90 font-label-sm text-label-sm text-on-surface font-semibold">
+                2h 15m
+              </div>
+<div class="absolute top-2.5 left-2.5 px-2.5 py-0.5 rounded-full bg-secondary-container/90 text-on-secondary-container font-label-sm text-label-sm font-semibold">
+                Data &amp; AI
+              </div>
+</div>
+<div class="p-space-md space-y-space-xs">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors line-clamp-2">
+                Artificial Intelligence &amp; LLMs from Scratch with PyTorch &amp; HuggingFace
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+                Demystify transformer architectures, attention mechanisms, fine-tuning quantized open-weights models, and production RAG implementations.
+              </p>
+</div>
+</div>
+<div class="p-space-md pt-0">
+<a class="w-full inline-flex items-center justify-center gap-2 py-2.5 px-4 rounded-lg bg-surface-container-high hover:bg-[#FF0000] text-on-surface hover:text-white font-title-md text-[14px] transition-colors duration-200" href="https://youtube.com/c/apkglobal" rel="noopener noreferrer" target="_blank">
+<svg class="w-4 h-4 fill-current" viewbox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg>
+<span>Watch on YouTube</span>
+</a>
+</div>
+</div>
+<!-- Card 5: Mobile App Dev -->
+<div class="video-card group flex flex-col justify-between rounded-xl bg-surface-container-low hover:bg-surface-container transition-all duration-300 shadow-md hover:-translate-y-1 overflow-hidden" data-category="web">
+<div>
+<div class="relative w-full aspect-video bg-surface-container-lowest overflow-hidden">
+<div class="bg-cover bg-center w-full h-full transition-transform duration-500 group-hover:scale-105" data-alt="Sleek dual smartphones on developer desk running cross-platform Flutter mobile applications with rich dark UI components and responsive widgets." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCGYgfl0_V02sZbrXAVZWeMinfrke_l1H8IUP278TJMkpZYa-HKiK0GTHpRizlJ2ldXhxM3G4TyhVNFgGvX4TKMUo_gxEZUNRpMvCckQhhqSXeJ8lKTjACazuemUNE-0zCmHj6uzxgTNXhirfVoZnk9hEQ8DU1HgUALdzbezVUzUljaoB9hi5eolTbR8Zo9XV68_x9kA_x3bHL0z0FuI6-Vx-mdnvIgRhBJt_tjQ0VF')"></div>
+<div class="absolute inset-0 bg-surface-container-lowest/40 group-hover:bg-surface-container-lowest/10 transition-colors flex items-center justify-center">
+<div class="w-12 h-12 rounded-full bg-[#FF0000] text-white flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[28px] ml-0.5">play_arrow</span>
+</div>
+</div>
+<div class="absolute bottom-2.5 right-2.5 px-2 py-0.5 rounded bg-surface-container-lowest/90 font-label-sm text-label-sm text-on-surface font-semibold">
+                1h 40m
+              </div>
+<div class="absolute top-2.5 left-2.5 px-2.5 py-0.5 rounded-full bg-tertiary-container/90 text-on-tertiary font-label-sm text-label-sm font-semibold">
+                Mobile App
+              </div>
+</div>
+<div class="p-space-md space-y-space-xs">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors line-clamp-2">
+                Cross-Platform Mobile App Development with Flutter &amp; React Native
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+                Build slick 60fps native mobile apps with shared business logic, state containers, native camera bindings, and offline persistence.
+              </p>
+</div>
+</div>
+<div class="p-space-md pt-0">
+<a class="w-full inline-flex items-center justify-center gap-2 py-2.5 px-4 rounded-lg bg-surface-container-high hover:bg-[#FF0000] text-on-surface hover:text-white font-title-md text-[14px] transition-colors duration-200" href="https://youtube.com/c/apkglobal" rel="noopener noreferrer" target="_blank">
+<svg class="w-4 h-4 fill-current" viewbox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg>
+<span>Watch on YouTube</span>
+</a>
+</div>
+</div>
+<!-- Card 6: DSA & Systems -->
+<div class="video-card group flex flex-col justify-between rounded-xl bg-surface-container-low hover:bg-surface-container transition-all duration-300 shadow-md hover:-translate-y-1 overflow-hidden" data-category="core">
+<div>
+<div class="relative w-full aspect-video bg-surface-container-lowest overflow-hidden">
+<div class="bg-cover bg-center w-full h-full transition-transform duration-500 group-hover:scale-105" data-alt="Abstract binary search tree and algorithmic pathfinding visual graph rendered on an ultrawide black screen with electric blue illuminated edges." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuD2aXLmrfGIrTg9QX0V6eg-jp0ZSb0ZuOCyOkkcSgXTC-NcWUotY-ALd_M-qMtq44W0FlZ_wZabfg9o5VRwxoHa19OxiAMduF8hfkWx0S9xn1vG0osEjQCPME6PWrMgWZJzv0pXc3xa994res77KenkzE9tmOqTpVymAI3Si_41lmpK0AXhUJxXRrlpw7C94RrOG1598DU1VQXspcaWinp_7x5E4CTZFQUyK5X_SRaF')"></div>
+<div class="absolute inset-0 bg-surface-container-lowest/40 group-hover:bg-surface-container-lowest/10 transition-colors flex items-center justify-center">
+<div class="w-12 h-12 rounded-full bg-[#FF0000] text-white flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[28px] ml-0.5">play_arrow</span>
+</div>
+</div>
+<div class="absolute bottom-2.5 right-2.5 px-2 py-0.5 rounded bg-surface-container-lowest/90 font-label-sm text-label-sm text-on-surface font-semibold">
+                4h 10m
+              </div>
+<div class="absolute top-2.5 left-2.5 px-2.5 py-0.5 rounded-full bg-primary-container/90 text-on-primary-container font-label-sm text-label-sm font-semibold">
+                Core Computer Science
+              </div>
+</div>
+<div class="p-space-md space-y-space-xs">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors line-clamp-2">
+                Mastering Data Structures &amp; Algorithms (DSA) for Tech Interviews
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+                Top interview patterns analyzed: Dynamic programming, graphs, trie trees, heaps, and Big-O computational complexity proofs.
+              </p>
+</div>
+</div>
+<div class="p-space-md pt-0">
+<a class="w-full inline-flex items-center justify-center gap-2 py-2.5 px-4 rounded-lg bg-surface-container-high hover:bg-[#FF0000] text-on-surface hover:text-white font-title-md text-[14px] transition-colors duration-200" href="https://youtube.com/c/apkglobal" rel="noopener noreferrer" target="_blank">
+<svg class="w-4 h-4 fill-current" viewbox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg>
+<span>Watch on YouTube</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- 3. YOUTUBE CHANNEL SPOTLIGHT -->
+<section class="relative max-w-[1440px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin py-16" id="channel">
+<div class="relative rounded-2xl bg-gradient-to-br from-surface-container to-surface-container-lowest p-space-lg md:p-space-xl shadow-2xl overflow-hidden">
+<!-- Ambient Red/Indigo Glow -->
+<div class="pointer-events-none absolute -right-20 -top-20 w-96 h-96 bg-[#FF0000]/15 rounded-full blur-[100px]"></div>
+<div class="pointer-events-none absolute -left-20 -bottom-20 w-96 h-96 bg-primary/15 rounded-full blur-[100px]"></div>
+<div class="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+<div class="lg:col-span-8 space-y-space-md">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#FF0000]/20 text-[#FF0000] font-label-md text-label-md font-semibold">
+<svg class="w-4 h-4 fill-current" viewbox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg>
+<span>Featured Channel Spotlight</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">
+              Learn With TechiGuru
+            </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl">
+              Join TechiGuru on YouTube and start learning modern technology through practical tutorials and real-world projects. High-definition lessons that turn complex theory into running software.
+            </p>
+<!-- Channel Stats Row -->
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-space-sm pt-space-xs">
+<div class="p-space-sm rounded-lg bg-surface-container-high/80">
+<div class="font-headline-sm text-headline-sm text-on-surface font-bold">500+</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">Video Lessons</div>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container-high/80">
+<div class="font-headline-sm text-headline-sm text-tertiary font-bold">50+</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">Real Projects</div>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container-high/80">
+<div class="font-headline-sm text-headline-sm text-primary font-bold">100%</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">Free Knowledge</div>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container-high/80">
+<div class="font-headline-sm text-headline-sm text-secondary font-bold">Active</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">Global Community</div>
+</div>
+</div>
+</div>
+<div class="lg:col-span-4 flex flex-col items-center lg:items-end justify-center gap-space-md">
+<a class="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl bg-[#FF0000] hover:bg-[#e60000] text-white font-title-md text-title-md shadow-[0_0_30px_rgba(255,0,0,0.5)] hover:shadow-[0_0_40px_rgba(255,0,0,0.7)] transition-all duration-300 transform hover:-translate-y-0.5" href="https://youtube.com/c/apkglobal" rel="noopener noreferrer" target="_blank">
+<svg class="w-6 h-6 fill-current" viewbox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg>
+<span>Visit YouTube Channel</span>
+</a>
+<div class="flex items-center gap-2 font-label-md text-label-md text-on-surface-variant">
+<span class="material-symbols-outlined text-tertiary text-[18px]">verified</span>
+<span>youtube.com/c/apkglobal</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 4. TECHNOLOGY CATEGORIES SECTION -->
+<section class="relative max-w-[1440px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin py-20" id="categories">
+<div class="text-center max-w-3xl mx-auto space-y-space-xs mb-space-xl">
+<div class="font-label-md text-label-md text-tertiary tracking-wider uppercase font-semibold">Specialized Disciplines</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">Explore What You Can Learn</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          Industry-grade learning paths curated for modern software engineers, from fundamental programming to production AI infrastructures.
+        </p>
+</div>
+<!-- High-fidelity Category Grid (14 Tracks) -->
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-gutter">
+<!-- 1. Python -->
+<a class="group p-space-md rounded-xl bg-surface-container-low hover:bg-surface-container transition-all duration-200 shadow-sm hover:-translate-y-1 block" href="https://youtube.com/c/apkglobal" rel="noopener noreferrer" target="_blank">
+<div class="w-10 h-10 rounded-lg bg-tertiary-container/40 text-tertiary flex items-center justify-center mb-space-sm group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[24px]">terminal</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-tertiary transition-colors">Python</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Core syntax, scripting, automation, asynchronous backend APIs.</p>
+<div class="mt-space-sm font-label-sm text-label-sm text-tertiary">Watch Track →</div>
+</a>
+<!-- 2. JavaScript -->
+<a class="group p-space-md rounded-xl bg-surface-container-low hover:bg-surface-container transition-all duration-200 shadow-sm hover:-translate-y-1 block" href="https://youtube.com/c/apkglobal" rel="noopener noreferrer" target="_blank">
+<div class="w-10 h-10 rounded-lg bg-secondary-container/40 text-secondary flex items-center justify-center mb-space-sm group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[24px]">javascript</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-secondary transition-colors">JavaScript</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Modern ES6+, Async programming, event loop &amp; browser internals.</p>
+<div class="mt-space-sm font-label-sm text-label-sm text-secondary">Watch Track →</div>
+</a>
+<!-- 3. Java -->
+<a class="group p-space-md rounded-xl bg-surface-container-low hover:bg-surface-container transition-all duration-200 shadow-sm hover:-translate-y-1 block" href="https://youtube.com/c/apkglobal" rel="noopener noreferrer" target="_blank">
+<div class="w-10 h-10 rounded-lg bg-primary-container/40 text-primary flex items-center justify-center mb-space-sm group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[24px]">coffee</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">Java</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Enterprise architectures, Spring Boot 3, OOP fundamentals &amp; JVM.</p>
+<div class="mt-space-sm font-label-sm text-label-sm text-primary">Watch Track →</div>
+</a>
+<!-- 4. C & C++ -->
+<a class="group p-space-md rounded-xl bg-surface-container-low hover:bg-surface-container transition-all duration-200 shadow-sm hover:-translate-y-1 block" href="https://youtube.com/c/apkglobal" rel="noopener noreferrer" target="_blank">
+<div class="w-10 h-10 rounded-lg bg-tertiary-container/40 text-tertiary flex items-center justify-center mb-space-sm group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[24px]">memory</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-tertiary transition-colors">C &amp; C++</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Low-level systems, pointer math, memory allocation &amp; game perf.</p>
+<div class="mt-space-sm font-label-sm text-label-sm text-tertiary">Watch Track →</div>
+</a>
+<!-- 5. .NET -->
+<a class="group p-space-md rounded-xl bg-surface-container-low hover:bg-surface-container transition-all duration-200 shadow-sm hover:-translate-y-1 block" href="https://youtube.com/c/apkglobal" rel="noopener noreferrer" target="_blank">
+<div class="w-10 h-10 rounded-lg bg-secondary-container/40 text-secondary flex items-center justify-center mb-space-sm group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[24px]">developer_mode_tv</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-secondary transition-colors">.NET</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Enterprise backend systems, C# 12, and ASP.NET Core microservices.</p>
+<div class="mt-space-sm font-label-sm text-label-sm text-secondary">Watch Track →</div>
+</a>
+<!-- 6. MERN Stack -->
+<a class="group p-space-md rounded-xl bg-surface-container-low hover:bg-surface-container transition-all duration-200 shadow-sm hover:-translate-y-1 block" href="https://youtube.com/c/apkglobal" rel="noopener noreferrer" target="_blank">
+<div class="w-10 h-10 rounded-lg bg-primary-container/40 text-primary flex items-center justify-center mb-space-sm group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[24px]">layers</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">MERN Stack</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">MongoDB, Express, React, Node.js production web solutions.</p>
+<div class="mt-space-sm font-label-sm text-label-sm text-primary">Watch Track →</div>
+</a>
+<!-- 7. Mobile App Dev -->
+<a class="group p-space-md rounded-xl bg-surface-container-low hover:bg-surface-container transition-all duration-200 shadow-sm hover:-translate-y-1 block" href="https://youtube.com/c/apkglobal" rel="noopener noreferrer" target="_blank">
+<div class="w-10 h-10 rounded-lg bg-tertiary-container/40 text-tertiary flex items-center justify-center mb-space-sm group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[24px]">phone_iphone</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-tertiary transition-colors">Mobile App Dev</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Cross-platform Flutter &amp; React Native, iOS &amp; Android packaging.</p>
+<div class="mt-space-sm font-label-sm text-label-sm text-tertiary">Watch Track →</div>
+</a>
+<!-- 8. Cloud & AWS -->
+<a class="group p-space-md rounded-xl bg-surface-container-low hover:bg-surface-container transition-all duration-200 shadow-sm hover:-translate-y-1 block" href="https://youtube.com/c/apkglobal" rel="noopener noreferrer" target="_blank">
+<div class="w-10 h-10 rounded-lg bg-secondary-container/40 text-secondary flex items-center justify-center mb-space-sm group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[24px]">cloud</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-secondary transition-colors">Cloud &amp; AWS</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">EC2, S3 buckets, Lambda Serverless, IAM policies &amp; CloudFront CDN.</p>
+<div class="mt-space-sm font-label-sm text-label-sm text-secondary">Watch Track →</div>
+</a>
+<!-- 9. DevOps & CI/CD -->
+<a class="group p-space-md rounded-xl bg-surface-container-low hover:bg-surface-container transition-all duration-200 shadow-sm hover:-translate-y-1 block" href="https://youtube.com/c/apkglobal" rel="noopener noreferrer" target="_blank">
+<div class="w-10 h-10 rounded-lg bg-primary-container/40 text-primary flex items-center justify-center mb-space-sm group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[24px]">sync_alt</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">DevOps &amp; CI/CD</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">GitHub Actions pipelines, automated regression &amp; zero-downtime releases.</p>
+<div class="mt-space-sm font-label-sm text-label-sm text-primary">Watch Track →</div>
+</a>
+<!-- 10. Docker & Containers -->
+<a class="group p-space-md rounded-xl bg-surface-container-low hover:bg-surface-container transition-all duration-200 shadow-sm hover:-translate-y-1 block" href="https://youtube.com/c/apkglobal" rel="noopener noreferrer" target="_blank">
+<div class="w-10 h-10 rounded-lg bg-tertiary-container/40 text-tertiary flex items-center justify-center mb-space-sm group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[24px]">deployed_code</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-tertiary transition-colors">Docker &amp; Containers</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Multi-stage Docker builds, compose stacks, microservices networking.</p>
+<div class="mt-space-sm font-label-sm text-label-sm text-tertiary">Watch Track →</div>
+</a>
+<!-- 11. Data Science & ML -->
+<a class="group p-space-md rounded-xl bg-surface-container-low hover:bg-surface-container transition-all duration-200 shadow-sm hover:-translate-y-1 block" href="https://youtube.com/c/apkglobal" rel="noopener noreferrer" target="_blank">
+<div class="w-10 h-10 rounded-lg bg-secondary-container/40 text-secondary flex items-center justify-center mb-space-sm group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[24px]">analytics</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-secondary transition-colors">Data Science &amp; ML</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Pandas, NumPy computations, Scikit-Learn pipelines &amp; models.</p>
+<div class="mt-space-sm font-label-sm text-label-sm text-secondary">Watch Track →</div>
+</a>
+<!-- 12. Artificial Intelligence -->
+<a class="group p-space-md rounded-xl bg-surface-container-low hover:bg-surface-container transition-all duration-200 shadow-sm hover:-translate-y-1 block" href="https://youtube.com/c/apkglobal" rel="noopener noreferrer" target="_blank">
+<div class="w-10 h-10 rounded-lg bg-primary-container/40 text-primary flex items-center justify-center mb-space-sm group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[24px]">psychology</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">Artificial Intelligence</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Deep neural networks, generative transformers &amp; agentic workflows.</p>
+<div class="mt-space-sm font-label-sm text-label-sm text-primary">Watch Track →</div>
+</a>
+<!-- 13. DSA -->
+<a class="group p-space-md rounded-xl bg-surface-container-low hover:bg-surface-container transition-all duration-200 shadow-sm hover:-translate-y-1 block" href="https://youtube.com/c/apkglobal" rel="noopener noreferrer" target="_blank">
+<div class="w-10 h-10 rounded-lg bg-tertiary-container/40 text-tertiary flex items-center justify-center mb-space-sm group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[24px]">account_tree</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-tertiary transition-colors">DSA</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Data structures, LeetCode patterns, and complexity proofs.</p>
+<div class="mt-space-sm font-label-sm text-label-sm text-tertiary">Watch Track →</div>
+</a>
+<!-- 14. Database Systems -->
+<a class="group p-space-md rounded-xl bg-surface-container-low hover:bg-surface-container transition-all duration-200 shadow-sm hover:-translate-y-1 block" href="https://youtube.com/c/apkglobal" rel="noopener noreferrer" target="_blank">
+<div class="w-10 h-10 rounded-lg bg-secondary-container/40 text-secondary flex items-center justify-center mb-space-sm group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[24px]">database</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-secondary transition-colors">Database Systems</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">PostgreSQL relational modeling, MongoDB queries &amp; indexing strategies.</p>
+<div class="mt-space-sm font-label-sm text-label-sm text-secondary">Watch Track →</div>
+</a>
+</div>
+</section>
+<!-- 5. ABOUT & MISSION SECTION -->
+<section class="relative max-w-[1440px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin py-20" id="about">
+<!-- Split About Top Layout -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center mb-space-xl">
+<!-- Left: Verbatim About Text -->
+<div class="lg:col-span-7 space-y-space-md">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-surface-container-high font-label-md text-label-md text-primary font-semibold">
+<span class="material-symbols-outlined text-[16px]">info</span>
+<span>Who We Are</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">About TechiGuru</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+            Welcome to TechiGuru, your ultimate destination for mastering modern technology and building real-world skills that matter. At TechiGuru, we simplify complex tech concepts and transform them into practical, project-based learning experiences. Whether you're a beginner starting your coding journey or a professional upgrading your skills, this channel is designed to help you grow.
+          </p>
+<div class="flex items-center gap-4 pt-2">
+<a class="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-primary text-on-primary font-title-md text-title-md shadow-md hover:bg-primary-fixed-dim transition-colors" href="https://youtube.com/c/apkglobal" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[20px]">smart_display</span>
+<span>Watch Curriculum</span>
+</a>
+<a class="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-surface-container-high text-on-surface hover:bg-surface-container-highest font-title-md text-title-md transition-colors" href="https://techiguru.in" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[20px] text-tertiary">open_in_browser</span>
+<span>techiguru.in</span>
+</a>
+</div>
+</div>
+<!-- Right: Embedded Image & Lab Badge -->
+<div class="lg:col-span-5 relative mt-6 lg:mt-0">
+<div class="relative rounded-2xl overflow-hidden bg-surface-container-lowest shadow-2xl">
+<img alt="TechiGuru modern AI cloud infrastructure research laboratory" class="w-full h-80 lg:h-96 object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCA5PESB83MUWSkEsRP4DIlZIzqEu1hWjoyb2taVUlXG1MFjSF-ye3e_yP5pYUD8XBa1eJ0I5V1_mmLP2sRhU8xtUZwmVNdd6FwlxoHwx1OSrAlKncsk8gC-wZSGGnInvxHVNZ3metmPeCqp-V0EXoch9FYYlK6s1IgmClwDetGUihyP-347dvh0A6d5i8oBk64Eu9lYvQW8qdWdOhzdoiX3s5hqkthwDiexQbJC7Rx"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest/80 via-transparent to-transparent"></div>
+<div class="absolute bottom-4 left-4 right-4 p-space-sm rounded-xl bg-surface-container-low/85 backdrop-blur-md flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="w-3 h-3 rounded-full bg-tertiary animate-pulse"></span>
+<span class="font-title-md text-[14px] text-on-surface">Industry-Grade Lab Experience</span>
+</div>
+<span class="font-label-sm text-label-sm text-tertiary uppercase tracking-wider">Production Rig</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Dark Gradient Container for MISSION -->
+<div class="relative rounded-2xl bg-gradient-to-br from-surface-container-low via-surface-container-lowest to-surface-container-low p-space-lg md:p-space-xl shadow-xl overflow-hidden">
+<div class="max-w-2xl mx-auto text-center space-y-space-xs mb-space-lg">
+<div class="font-label-md text-label-md text-tertiary tracking-wider uppercase font-semibold">Purpose &amp; Vision</div>
+<h3 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">Our Mission</h3>
+<p class="font-title-md text-title-md text-primary font-semibold">
+            To bridge the gap between learning and real-world industry skills.
+          </p>
+</div>
+<!-- 5 Feature Cards Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-space-md">
+<!-- Mission Card 1 -->
+<div class="p-space-md rounded-xl bg-surface-container-high/60 backdrop-blur-sm flex flex-col items-center text-center">
+<div class="w-12 h-12 rounded-xl bg-tertiary-container/30 text-tertiary flex items-center justify-center mb-space-sm">
+<span class="material-symbols-outlined text-[28px]">code_blocks</span>
+</div>
+<h4 class="font-headline-sm text-[16px] text-on-surface font-semibold mb-1">Practical Tutorials</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Hands-on step-by-step implementation from zero to running build.</p>
+</div>
+<!-- Mission Card 2 -->
+<div class="p-space-md rounded-xl bg-surface-container-high/60 backdrop-blur-sm flex flex-col items-center text-center">
+<div class="w-12 h-12 rounded-xl bg-primary-container/30 text-primary flex items-center justify-center mb-space-sm">
+<span class="material-symbols-outlined text-[28px]">developer_board</span>
+</div>
+<h4 class="font-headline-sm text-[16px] text-on-surface font-semibold mb-1">Real-Time Projects</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Real architectural workflows built directly on production codebases.</p>
+</div>
+<!-- Mission Card 3 -->
+<div class="p-space-md rounded-xl bg-surface-container-high/60 backdrop-blur-sm flex flex-col items-center text-center">
+<div class="w-12 h-12 rounded-xl bg-secondary-container/30 text-secondary flex items-center justify-center mb-space-sm">
+<span class="material-symbols-outlined text-[28px]">workspace_premium</span>
+</div>
+<h4 class="font-headline-sm text-[16px] text-on-surface font-semibold mb-1">Industry-Relevant</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Up-to-date tools demanded right now by top global technology firms.</p>
+</div>
+<!-- Mission Card 4 -->
+<div class="p-space-md rounded-xl bg-surface-container-high/60 backdrop-blur-sm flex flex-col items-center text-center">
+<div class="w-12 h-12 rounded-xl bg-tertiary-container/30 text-tertiary flex items-center justify-center mb-space-sm">
+<span class="material-symbols-outlined text-[28px]">rocket_launch</span>
+</div>
+<h4 class="font-headline-sm text-[16px] text-on-surface font-semibold mb-1">Project-Based</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Learn by building real scalable software products from day one.</p>
+</div>
+<!-- Mission Card 5 -->
+<div class="p-space-md rounded-xl bg-surface-container-high/60 backdrop-blur-sm flex flex-col items-center text-center sm:col-span-2 lg:col-span-1">
+<div class="w-12 h-12 rounded-xl bg-primary-container/30 text-primary flex items-center justify-center mb-space-sm">
+<span class="material-symbols-outlined text-[28px]">trending_up</span>
+</div>
+<h4 class="font-headline-sm text-[16px] text-on-surface font-semibold mb-1">Career-Focused</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Empowering engineers to crack high-paying tech and architect roles.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- 6. CALL TO ACTION SECTION -->
+<section class="relative max-w-[1440px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin py-16">
+<div class="relative rounded-2xl bg-gradient-to-r from-surface-container-low via-surface-container to-surface-container-lowest p-space-lg md:p-space-xl shadow-2xl text-center overflow-hidden">
+<!-- Glowing Ambient Circle -->
+<div class="pointer-events-none absolute left-1/2 -top-24 -translate-x-1/2 w-[500px] h-[300px] bg-primary/20 rounded-full blur-[100px]"></div>
+<div class="relative z-10 max-w-3xl mx-auto space-y-space-md">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-surface-container-highest text-tertiary font-label-md text-label-md font-semibold">
+<span class="material-symbols-outlined text-[16px]">school</span>
+<span>Free Lifelong Tech Education</span>
+</div>
+<h2 class="font-display-hero-mobile md:font-headline-lg text-headline-lg text-on-surface tracking-tight">
+            Ready to Start Your Tech Journey?
+          </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
+            Subscribe to TechiGuru and start learning the skills that matter in today's technology industry. High-yield video content completely accessible to everyone.
+          </p>
+<div class="flex flex-col sm:flex-row items-center justify-center gap-space-md pt-space-xs">
+<!-- Big Subscribe CTA -->
+<a class="inline-flex items-center gap-3 px-8 py-4 rounded-xl bg-[#FF0000] hover:bg-[#e60000] text-white font-title-md text-title-md shadow-[0_0_35px_rgba(255,0,0,0.55)] hover:shadow-[0_0_45px_rgba(255,0,0,0.75)] transition-all duration-300 transform hover:scale-105" href="https://youtube.com/c/apkglobal" rel="noopener noreferrer" target="_blank">
+<svg class="w-6 h-6 fill-current" viewbox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg>
+<span>Subscribe on YouTube</span>
+</a>
+<!-- Channel Link Pill -->
+<a class="inline-flex items-center gap-2 px-5 py-4 rounded-xl bg-surface-container-high hover:bg-surface-container-highest text-on-surface font-label-md text-label-md transition-colors" href="https://youtube.com/c/apkglobal" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-tertiary text-[18px]">link</span>
+<span>Official Channel: youtube.com/c/apkglobal</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- 7. CONNECT & SOCIAL LINKS SECTION -->
+<section class="relative max-w-[1440px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin pt-12 pb-24" id="contact">
+<div class="text-center max-w-2xl mx-auto space-y-space-xs mb-space-lg">
+<div class="font-label-md text-label-md text-tertiary tracking-wider uppercase font-semibold">Join The Community</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">Connect With TechiGuru</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">Stay up to date with fresh code drops, community discussions, and industry insights across our verified hubs.</p>
+</div>
+<!-- Social Cards Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-space-sm mb-space-lg">
+<!-- YouTube -->
+<a class="group p-space-md rounded-xl bg-surface-container-low hover:bg-[#FF0000] transition-colors duration-200 flex flex-col items-center text-center shadow-sm" href="https://youtube.com/c/apkglobal" rel="noopener noreferrer" target="_blank">
+<div class="w-12 h-12 rounded-xl bg-surface-container-high group-hover:bg-white text-[#FF0000] flex items-center justify-center mb-space-xs transition-colors">
+<svg class="w-6 h-6 fill-current" viewbox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg>
+</div>
+<span class="font-headline-sm text-[16px] text-on-surface group-hover:text-white font-semibold">YouTube</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant group-hover:text-white/80 mt-1">@apkglobal</span>
+</a>
+<!-- Instagram -->
+<a class="group p-space-md rounded-xl bg-surface-container-low hover:bg-secondary-container transition-colors duration-200 flex flex-col items-center text-center shadow-sm" href="https://instagram.com/techiguru.in" rel="noopener noreferrer" target="_blank">
+<div class="w-12 h-12 rounded-xl bg-surface-container-high group-hover:bg-surface-container-lowest text-secondary flex items-center justify-center mb-space-xs transition-colors">
+<span class="material-symbols-outlined text-[26px]">photo_camera</span>
+</div>
+<span class="font-headline-sm text-[16px] text-on-surface group-hover:text-on-secondary-container font-semibold">Instagram</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant group-hover:text-on-secondary-container/80 mt-1">@techiguru.in</span>
+</a>
+<!-- Facebook -->
+<a class="group p-space-md rounded-xl bg-surface-container-low hover:bg-primary-container transition-colors duration-200 flex flex-col items-center text-center shadow-sm" href="https://facebook.com/pawansharma548" rel="noopener noreferrer" target="_blank">
+<div class="w-12 h-12 rounded-xl bg-surface-container-high group-hover:bg-surface-container-lowest text-primary flex items-center justify-center mb-space-xs transition-colors">
+<span class="material-symbols-outlined text-[26px]">groups</span>
+</div>
+<span class="font-headline-sm text-[16px] text-on-surface group-hover:text-on-primary-container font-semibold">Facebook</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant group-hover:text-on-primary-container/80 mt-1">@pawansharma548</span>
+</a>
+<!-- Website -->
+<a class="group p-space-md rounded-xl bg-surface-container-low hover:bg-tertiary-container transition-colors duration-200 flex flex-col items-center text-center shadow-sm" href="https://techiguru.in" rel="noopener noreferrer" target="_blank">
+<div class="w-12 h-12 rounded-xl bg-surface-container-high group-hover:bg-surface-container-lowest text-tertiary flex items-center justify-center mb-space-xs transition-colors">
+<span class="material-symbols-outlined text-[26px]">language</span>
+</div>
+<span class="font-headline-sm text-[16px] text-on-surface group-hover:text-on-tertiary font-semibold">Official Website</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant group-hover:text-on-tertiary/80 mt-1">techiguru.in</span>
+</a>
+<!-- Business Email -->
+<a class="group p-space-md rounded-xl bg-surface-container-low hover:bg-surface-bright transition-colors duration-200 flex flex-col items-center text-center shadow-sm" href="mailto:techiguru.in@gmail.com">
+<div class="w-12 h-12 rounded-xl bg-surface-container-high group-hover:bg-surface-container-lowest text-on-surface flex items-center justify-center mb-space-xs transition-colors">
+<span class="material-symbols-outlined text-[26px]">mail</span>
+</div>
+<span class="font-headline-sm text-[16px] text-on-surface font-semibold">Direct Email</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant mt-1">techiguru.in@gmail.com</span>
+</a>
+</div>
+<!-- Business Query Collaboration Callout -->
+<div class="max-w-2xl mx-auto p-space-md rounded-xl bg-surface-container-low text-center flex flex-col sm:flex-row items-center justify-between gap-space-sm shadow-sm">
+<div class="flex items-center gap-3 text-left">
+<span class="material-symbols-outlined text-tertiary text-[24px]">handshake</span>
+<div>
+<div class="font-title-md text-[14px] text-on-surface">Partnerships &amp; Collaborations</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">For business queries, sponsorships, and tech workshops.</div>
+</div>
+</div>
+<a class="px-4 py-2 rounded-lg bg-surface-container-high hover:bg-primary hover:text-on-primary text-on-surface font-label-md text-label-md transition-colors whitespace-nowrap" href="mailto:techiguru.in@gmail.com">
+          techiguru.in@gmail.com
+        </a>
+</div>
+</section>
+</div>
+</div>
+<script>
+  function filterVideos(category) {
+    const cards = document.querySelectorAll('.video-card');
+    const buttons = document.querySelectorAll('.video-filter-btn');
+
+    buttons.forEach(btn => {
+      if (btn.getAttribute('data-cat') === category) {
+        btn.classList.remove('bg-surface-container-high', 'text-on-surface-variant');
+        btn.classList.add('bg-primary', 'text-on-primary');
+      } else {
+        btn.classList.remove('bg-primary', 'text-on-primary');
+        btn.classList.add('bg-surface-container-high', 'text-on-surface-variant');
+      }
+    });
+
+    cards.forEach(card => {
+      const cardCat = card.getAttribute('data-category');
+      if (category === 'all' || cardCat === category) {
+        card.style.display = 'flex';
+      } else {
+        card.style.display = 'none';
+      }
+    });
+  }
+</script></main><footer class="w-full bg-surface-container-lowest border-t border-slate-800/80 pt-space-xl pb-space-lg"><div class="max-w-[1440px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-gutter mb-space-xl"><div class="lg:col-span-4 space-y-space-md"><div class="flex items-center gap-3"><img alt="TechiGuru Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuClrSv1p60-0Er3qSMsx2PdILD6s3Mu3hWN9sDuIgn6TkNTX_9Jrxa81mAF8Z2RhCKJrTfHyy1Xp-ejr8u9ZGzsmpsfv2oBYfPjkQptLjz6fBAEHyw2_3Ocf2zBEBT2UlT_O4R0j0DXp_hzJ_s_QoL4onYYAr8c0CnqjcRbMEHzEMraL5j_4gGt_LJhsTI6W2CSG1VglkPwcrG3ccI08dGXSILng5OfMp559Kgzoh6U"/><div class="flex items-center"><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight">Techi<span class="text-primary">Guru</span></span><span class="w-2 h-2 ml-1 rounded-full bg-tertiary shadow-[0_0_8px_#4cd7f6]"></span></div></div><p class="font-body-md text-body-md text-on-surface-variant max-w-sm">Master Modern Technology. Build Real-World Skills. Production-ready software engineering, cloud architectures, and developer tutorials.</p><div class="flex items-center gap-2 pt-space-xs"><a class="w-9 h-9 rounded-lg bg-surface-container-high/60 hover:bg-[#FF0000] text-on-surface-variant hover:text-white flex items-center justify-center transition-colors" href="https://youtube.com/c/apkglobal" rel="noopener noreferrer" target="_blank" title="YouTube"><span class="material-symbols-outlined text-[20px]">smart_display</span></a><a class="w-9 h-9 rounded-lg bg-surface-container-high/60 hover:bg-secondary-container text-on-surface-variant hover:text-on-secondary-container flex items-center justify-center transition-colors" href="https://instagram.com/techiguru.in" rel="noopener noreferrer" target="_blank" title="Instagram"><span class="material-symbols-outlined text-[20px]">photo_camera</span></a><a class="w-9 h-9 rounded-lg bg-surface-container-high/60 hover:bg-primary-container text-on-surface-variant hover:text-on-primary-container flex items-center justify-center transition-colors" href="https://facebook.com/pawansharma548" rel="noopener noreferrer" target="_blank" title="Facebook"><span class="material-symbols-outlined text-[20px]">groups</span></a><a class="w-9 h-9 rounded-lg bg-surface-container-high/60 hover:bg-tertiary-container text-on-surface-variant hover:text-on-tertiary flex items-center justify-center transition-colors" href="https://techiguru.in" rel="noopener noreferrer" target="_blank" title="Website"><span class="material-symbols-outlined text-[20px]">language</span></a><a class="w-9 h-9 rounded-lg bg-surface-container-high/60 hover:bg-surface-variant text-on-surface-variant hover:text-on-surface flex items-center justify-center transition-colors" href="mailto:techiguru.in@gmail.com" title="Email"><span class="material-symbols-outlined text-[20px]">mail</span></a></div></div><div class="lg:col-span-2 space-y-space-sm"><div class="font-headline-sm text-[16px] text-on-surface tracking-wide">Quick Links</div><ul class="space-y-space-xs font-body-sm text-body-sm text-on-surface-variant"><li><a class="hover:text-tertiary transition-colors" href="#hero">Home</a></li><li><a class="hover:text-tertiary transition-colors" href="#videos">All Videos</a></li><li><a class="hover:text-tertiary transition-colors" href="#channel">YouTube Channel</a></li><li><a class="hover:text-tertiary transition-colors" href="#about">About TechiGuru</a></li><li><a class="hover:text-tertiary transition-colors" href="#contact">Contact &amp; Support</a></li></ul></div><div class="lg:col-span-6 space-y-space-sm"><div class="font-headline-sm text-[16px] text-on-surface tracking-wide">Learning Tracks</div><div class="grid grid-cols-1 sm:grid-cols-2 gap-space-sm font-body-sm text-body-sm text-on-surface-variant"><div class="p-space-sm rounded-lg bg-surface-container-low border border-slate-800/60"><div class="text-tertiary font-title-md text-[13px] mb-1">Programming</div><p class="text-xs text-on-surface-variant/80">Python, JavaScript, Java, C, C++, .NET</p></div><div class="p-space-sm rounded-lg bg-surface-container-low border border-slate-800/60"><div class="text-secondary font-title-md text-[13px] mb-1">Web Development</div><p class="text-xs text-on-surface-variant/80">MERN Stack, Next.js, Modern UI</p></div><div class="p-space-sm rounded-lg bg-surface-container-low border border-slate-800/60"><div class="text-primary font-title-md text-[13px] mb-1">Mobile Development</div><p class="text-xs text-on-surface-variant/80">Cross-Platform, Native Flutter &amp; React Native</p></div><div class="p-space-sm rounded-lg bg-surface-container-low border border-slate-800/60"><div class="text-tertiary font-title-md text-[13px] mb-1">Cloud &amp; DevOps</div><p class="text-xs text-on-surface-variant/80">AWS, Docker, Kubernetes, CI/CD</p></div><div class="p-space-sm rounded-lg bg-surface-container-low border border-slate-800/60"><div class="text-secondary font-title-md text-[13px] mb-1">Data &amp; AI</div><p class="text-xs text-on-surface-variant/80">Data Science, Machine Learning, Generative AI</p></div><div class="p-space-sm rounded-lg bg-surface-container-low border border-slate-800/60"><div class="text-primary font-title-md text-[13px] mb-1">Core CS</div><p class="text-xs text-on-surface-variant/80">Data Structures &amp; Algorithms, DBMS</p></div></div></div></div><div class="pt-space-lg border-t border-slate-800/60 flex flex-col sm:flex-row items-center justify-between gap-space-sm font-body-sm text-body-sm text-on-surface-variant"><p>© 2026 TechiGuru. All Rights Reserved.</p><div class="flex items-center gap-space-md text-xs"><a class="hover:text-on-surface transition-colors" href="#">Privacy Policy</a><span class="text-slate-700">•</span><a class="hover:text-on-surface transition-colors" href="#">Terms of Service</a><span class="text-slate-700">•</span><span class="text-on-surface-variant/60">Empowering Devs Worldwide</span></div></div></div></footer></body></html>
